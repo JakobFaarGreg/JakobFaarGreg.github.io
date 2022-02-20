@@ -20,6 +20,7 @@
     "escape-html": "^1.0.3",
     "etag": "^1.8.1",
     "express": "^4.17.3",
+    "express-handlebars": "^6.0.2",
     "finalhandler": "^1.1.2",
     "forwarded": "^0.2.0",
     "fresh": "^0.5.2",
@@ -34,10 +35,12 @@
     "mime": "^1.6.0",
     "mime-db": "^1.51.0",
     "mime-types": "^2.1.34",
+    "moment": "^2.29.1",
     "ms": "^2.0.0",
     "negotiator": "^0.6.3",
     "on-finished": "^2.3.0",
     "parseurl": "^1.3.3",
+    "path": "^0.12.7",
     "path-to-regexp": "^0.1.7",
     "proxy-addr": "^2.0.7",
     "qs": "^6.9.7",
@@ -56,6 +59,7 @@
     "vary": "^1.1.2"
   },
   "scripts": {
+    "start": "nodemon ./src/app.js",
     "test": "test"
   },
   "repository": {
@@ -67,5 +71,8 @@
   "bugs": {
     "url": "https://github.com/JakobFaarGreg/website/issues"
   },
-  "homepage": "https://github.com/JakobFaarGreg/website#readme"
+  "homepage": "https://github.com/JakobFaarGreg/website#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }

@@ -1,8 +1,11 @@
 "use strict";
 
 const express = require("express");
-const router = require("./router");
+const path = require("path");
+const router = require("./router.js");
+const logger = require("./logger");
 const helmet = require("helmet");
+const handlebars = require('express-handlebars');
 const fs = require("fs");
 const https = require("https");
 const app = express();
@@ -12,10 +15,14 @@ const httpsOptions = {
   cert: fs.readFileSync("./src/ssl/cert.pem"),
 };
 
+app.use(logger);
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-app.use("static", express.static(path.join(__dirname,"public")));
 app.use(helmet());
+
+app.engine('handlebars', handlebars.engine());
+app.set('view engine', 'handlebars');
+app.set('views', './views');
 
 app.use("/", router);
 
