@@ -1,5 +1,5 @@
 "use strict";
 
 exports.renderHomePage = (req, res) => {
-  res.render("./public/index.html");
+  res.render("index");
 };
