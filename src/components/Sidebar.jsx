@@ -9,7 +9,7 @@ const links = [
 
 export default function Sidebar() {
     return (
-        <aside className="w-40 shrink-0 border-r border-gray-200 p-4">
+        <aside className="w-28 shrink-0 border-r border-gray-200 bg-gray-50 p-3 sm:w-40 sm:p-4">
             <nav className="flex flex-col gap-3">
                 {links.map(({ to, label, end }) => (
                     <NavLink
@@ -17,7 +17,9 @@ export default function Sidebar() {
                         to={to}
                         end={end}
                         className={({ isActive }) =>
-                            `text-sm text-gray-700 hover:text-black ${isActive ? 'underline underline-offset-4 font-medium' : ''
+                            `text-sm text-gray-700 hover:text-black ${isActive
+                                ? 'font-medium underline underline-offset-4'
+                                : 'no-underline'
                             }`
                         }
                     >
