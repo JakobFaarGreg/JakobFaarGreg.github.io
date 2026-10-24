@@ -1,0 +1,27 @@
+
+[
+  {
+    "title": "Water gun for pidgeon deterrence",
+    "description": "A fully automatic water gun that uses a classifier to discover bird species, before firing a water jet at pidgeons.",
+    "image": "/images/projects/pexels-altaf-shah-3143825-6438048.webp",
+    "href": "/projects/water-gun",
+    "status": "in-progress",
+    "technologies": ["React", "TypeScript", "Tailwind CSS"]
+  },
+  {
+    "title": "Road Guess",
+    "description": "An Android game that practices your knowledge of road names in your local city.",
+    "image": "/images/projects/ic_launcher.webp",
+    "href": "/projects/road-guess",
+    "status": "in-progress",
+    "technologies": ["Kotlin", "Jetpack Compose UI", "Gradle", "Mapbox"]
+  },
+  {
+    "title": "Library Management System",
+    "description": "A library management system capable of lending out books, tracking delinquent fees, and managing reservations of books.",
+    "image": "/images/projects/pexels-sumcig-38323235.webp",
+    "href": "/projects/library-management-system",
+    "status": "on-hold",
+    "technologies": ["Java", "Gradle", "Docker"]
+  }
+]
