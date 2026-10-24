@@ -1,11 +1,9 @@
-# Project A
+# Automated Pigeon Deterrent for a Balcony
 
-This is a description of my project.
+This personal project is an exploration of hardware, electromechanical systems, and automation, built to solve a simple problem: keeping pigeons from settling on a balcony bannister. The system uses a camera feed to monitor the bannister and a motorized water gun to deter unwanted visitors. The main challenge lies in bringing the physical components together into a working system, from mounting and rotating the nozzle to controlling its movement and water delivery. For an author with limited prior hardware experience, the project is an opportunity to learn through hands-on experimentation, prototyping, and troubleshooting.
 
-## Features
+The system's core is a custom-built mechanism that can rotate a water gun nozzle toward a target and fire a controlled jet of water. A machine learning classifier processes screenshots captured from the camera feed, using an off-the-shelf model trained on more than 500 bird species to distinguish pigeons from other birds. When a pigeon is identified, the system coordinates the nozzle's movement and activation. Integrating the camera feed, classification results, motor control, and water delivery into a reliable sequence is a key part of the engineering challenge.
 
-- Feature one
-- Feature two
-- Feature three
+The goal is to create a targeted, non-lethal deterrent that discourages pigeons from returning without disturbing other birds or causing harm. The system has been tested with the intention of avoiding injury to birds, and its design focuses on brief water jets rather than physical contact. Beyond solving a practical balcony problem, the project serves as a learning exercise in hardware integration, mechanical design, actuator control, and the process of turning a collection of components into a functioning automated system.
 
-[Visit the project](https://example.com)
+[Link to GitHub repo](https://github.com/JakobFaarGreg/watergun)
