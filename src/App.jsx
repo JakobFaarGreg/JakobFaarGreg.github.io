@@ -5,6 +5,7 @@ import Projects from './pages/Projects.jsx'
 import Contact from './pages/Contact.jsx'
 import Sidebar from './components/sidebar/Sidebar.jsx'
 import Footer from './components/footer/Footer.jsx'
+import ProjectPage from './pages/ProjectPage.jsx'
 
 export default function App() {
   return (
@@ -16,6 +17,9 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/project/water-gun" element={<ProjectPage project="water-gun"/>} />
+          <Route path="/project/road-guess" element={<ProjectPage project="road-guess"/>} />
+          <Route path="/project/library-management-system" element={<ProjectPage project="library-management-system"/>} />
         </Routes>
         <Footer/>
       </main>

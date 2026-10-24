@@ -3,7 +3,9 @@ import {
     Clock3,
     PauseCircle,
     ArrowUpRight,
+    Link,
 } from "lucide-react";
+import { Link as RouterLink} from "react-router";
 
 const statusConfig = {
     completed: {
@@ -34,8 +36,8 @@ export function ProjectCard({ project, index }) {
             className={`group grid grid-cols-1 items-center gap-8 md:grid-cols-2 md:gap-12 lg:gap-16`}
         >
             {/* Project image */}
-            <a
-                href={project.href}
+            <RouterLink
+                to={project.href}
                 aria-label={`View ${project.title} project`}
                 className={`relative block overflow-hidden rounded-2xl bg-neutral-100 dark:bg-neutral-900
           ${reversed ? "md:order-2" : "md:order-1"}`}
@@ -51,7 +53,7 @@ export function ProjectCard({ project, index }) {
                 <div
                     className="pointer-events-none absolute inset-0 bg-black/0 transition-colors duration-300 group-hover:bg-black/5"
                 />
-            </a>
+            </RouterLink>
 
             {/* Project information */}
             <div
@@ -88,8 +90,8 @@ export function ProjectCard({ project, index }) {
                     </ul>
                 ) : null}
 
-                <a
-                    href={project.href}
+                <RouterLink
+                    to={project.href}
                     className="inline-flex items-center gap-2 text-sm font-medium text-neutral-900 transition-colors hover:text-neutral-500 dark:text-neutral-100 dark:hover:text-neutral-400"
                 >
                     Explore project
@@ -98,7 +100,7 @@ export function ProjectCard({ project, index }) {
                         className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
                         aria-hidden="true"
                     />
-                </a>
+                </RouterLink>
             </div>
         </article>
     );
