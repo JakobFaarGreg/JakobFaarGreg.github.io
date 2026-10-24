@@ -82,6 +82,7 @@ export function ProjectCard({ project, index }) {
                     </ul>
                 ) : null}
 
+                <StatusBadge status={statusConfig[project.status]} />
                 <RouterLink
                     to={project.href}
                     className="inline-flex items-center gap-2 text-sm font-medium text-neutral-900 transition-colors hover:text-neutral-500 dark:text-neutral-100 dark:hover:text-neutral-400"
@@ -93,7 +94,6 @@ export function ProjectCard({ project, index }) {
                         aria-hidden="true"
                     />
                 </RouterLink>
-                <StatusBadge status={statusConfig[project.status]} />
             </div>
         </article>
     );
