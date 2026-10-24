@@ -5,7 +5,8 @@ import {
     ArrowUpRight,
     Link,
 } from "lucide-react";
-import { Link as RouterLink} from "react-router";
+import { Link as RouterLink } from "react-router";
+import { StatusBadge } from "./StatusBadge";
 
 const statusConfig = {
     completed: {
@@ -28,8 +29,6 @@ const statusConfig = {
 
 export function ProjectCard({ project, index }) {
     const reversed = index % 2 === 1;
-    const status = statusConfig[project.status];
-    const StatusIcon = status.icon;
 
     return (
         <article
@@ -60,13 +59,6 @@ export function ProjectCard({ project, index }) {
                 className={`flex flex-col items-start gap-5
           ${reversed ? "md:order-1" : "md:order-2"}`}
             >
-                <span
-                    className={`inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs font-medium ${status.className}`}
-                >
-                    <StatusIcon size={14} aria-hidden="true" />
-                    {status.label}
-                </span>
-
                 <div className="space-y-3">
                     <h2 className="text-2xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-3xl lg:text-4xl">
                         {project.title}
@@ -101,6 +93,7 @@ export function ProjectCard({ project, index }) {
                         aria-hidden="true"
                     />
                 </RouterLink>
+                <StatusBadge status={statusConfig[project.status]} />
             </div>
         </article>
     );
