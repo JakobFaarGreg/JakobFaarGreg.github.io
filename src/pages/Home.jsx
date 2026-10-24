@@ -12,16 +12,17 @@ export default function Home() {
     return (
         <>
             <h1 className="text-3xl font-bold">Home</h1>
-            <p className="mt-4">Welcome to my website.</p>
+            <p className="mt-4">Welcome to my personal website.</p>
 
-            <section className="flex min-h-[500px] items-center justify-center bg-gray-50 dark:bg-gray-950">
+            <section className="flex min-h-[250px] items-center justify-center">
                 <OrbitingImages
-                    profileImage="/images/profile.jpg"
+                    profileImage="/images/floating/profilepic.webp"
                     images={orbitImages}
-                    size={340}
+                    size={500}
                     radius={125}
-                    imageSize={48}
-                    duration={24}
+                    profileSize={180}
+                    imageSize={40}
+                    duration={25}
                 />
             </section>
 
