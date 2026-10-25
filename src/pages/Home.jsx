@@ -11,8 +11,9 @@ export default function Home() {
     ];
     return (
         <>
-            <h1 className="text-3xl font-bold">Home</h1>
-            <p className="mt-4">Welcome to my personal website.</p>
+            <h1 className="text-3xl font-bold">Hello!</h1>
+            <p className="mt-4">My name is Jakob,  welcome to my personal website.</p>
+            <p className="mt-4">This is where I show off my projects</p>
 
             <section className="flex min-h-[250px] items-center justify-center">
                 <OrbitingImages
