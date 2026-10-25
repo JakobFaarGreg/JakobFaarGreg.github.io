@@ -3,7 +3,6 @@ import {
     Clock3,
     PauseCircle,
     ArrowUpRight,
-    Link,
 } from "lucide-react";
 import { Link as RouterLink } from "react-router";
 import { StatusBadge } from "./StatusBadge";

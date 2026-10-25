@@ -1,16 +1,58 @@
-# React + Vite
+# jakobfg
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Personal portfolio website built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+The site showcases personal projects, experiments, and contact information, with individual pages for selected projects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Projects
 
-## React Compiler
+- **Pigeon Deterrence: Water Gun** — An automated water gun that uses bird classification to identify pigeons and fire a water jet at them. *In progress.*
+- **Road Guess** — An Android game for practicing knowledge of road names in your local city. *In progress.*
+- **Library Management System** — A library system for lending books, managing reservations, and tracking delinquent fees. *On hold.*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the Oxlint configuration
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- Framer Motion
+- Lucide React
+- React Markdown
+- TypeScript / Kotlin / Java across projects
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Development
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## Deployment
+
+The site can be deployed to GitHub Pages with:
+
+```bash
+npm run deploy
+```
+
+This builds the project and publishes the `dist` directory using `gh-pages`.
