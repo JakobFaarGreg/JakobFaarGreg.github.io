@@ -20,7 +20,7 @@
     "title": "Library Management System",
     "description": "A library management system capable of lending out books, tracking delinquent fees, and managing reservations of books.",
     "image": "/images/projects/pexels-sumcig-38323235.webp",
-    "href": "/project/library-management-system",
+    "href": "/project/book-em",
     "status": "on-hold",
     "technologies": ["Java", "Gradle", "Docker"]
   }

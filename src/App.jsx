@@ -19,7 +19,7 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/project/water-gun" element={<ProjectPage project="water-gun"/>} />
           <Route path="/project/road-guess" element={<ProjectPage project="road-guess"/>} />
-          <Route path="/project/library-management-system" element={<ProjectPage project="library-management-system"/>} />
+          <Route path="/project/book-em" element={<ProjectPage project="book-em"/>} />
         </Routes>
         <Footer/>
       </main>

@@ -1,4 +1,4 @@
-# Library Management System
+# Book-em: Library Management System
 
 The Library Management System is a software project designed to support the day-to-day operations of a library. It provides functionality for managing book loans, handling reservations, and tracking overdue items and outstanding late fees. The system aims to bring these processes together in a single application, making it easier to keep track of book availability, manage lending activity, and monitor outstanding payments. The project focuses on implementing the core business logic required to handle the interactions between books, borrowers, reservations, and loans.
 
