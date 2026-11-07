@@ -14,7 +14,7 @@ export default function Contact() {
                     Contact
                 </h1>
 
-                <p className="mt-6 text-base leading-8 text-zinc-600">
+                <p className="mt-4 text-base leading-8 text-zinc-600">
                     Have a project in mind or want to connect?
                     Feel free to reach out. I'd love to hear from you.
                 </p>

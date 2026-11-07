@@ -14,7 +14,7 @@ export default function Sidebar() {
 
     return (
         <aside
-            className={`relative shrink-0 border-r border-gray-200 bg-gray-50 p-3 transition-[width] duration-200 ease-in-out sm:p-4 ${isExpanded ? 'w-40' : 'w-0'
+            className={`relative shrink-0 border-r border-gray-200 bg-[#FEF9EC] p-3 transition-[width] duration-200 ease-in-out sm:p-4 ${isExpanded ? 'w-40' : 'w-0'
                 }`}
         >
             <SidebarButton

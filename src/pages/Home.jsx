@@ -14,8 +14,8 @@ export default function Home() {
     return (
         <>
             <h1 className="text-5xl font-bold tracking-[-0.06em] sm:text-7xl">Hello!</h1>
-            <p className="mt-4">My name is <Link to="/contact" className="link-style">Jakob</Link>, welcome to my personal website.</p>
-            <p className="mt-4">This is where I show off my <Link to="/projects" className="link-style">projects</Link>.</p>
+            <p className="mt-4 text-base leading-8 text-zinc-600">My name is <Link to="/contact" className="link-style">Jakob</Link>, welcome to my personal website.</p>
+            <p className="mt-4 text-base leading-8 text-zinc-600">This is where I show off my <Link to="/projects" className="link-style">projects</Link>.</p>
 
             <section className="flex min-h-[250px] items-center justify-center">
                 <OrbitingImages

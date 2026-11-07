@@ -1,7 +1,7 @@
 import { ArrowUpRight } from "lucide-react";
 
 const cardClass =
-    "group flex min-w-0 items-start gap-4 rounded-2xl border border-zinc-200 bg-white p-6 transition-all duration-200 hover:-translate-y-1 hover:border-zinc-300 hover:shadow-sm";
+    "group flex min-w-0 items-start gap-4 rounded-2xl border border-zinc-200 bg-[#FEF9EC] p-6 transition-all duration-200 hover:-translate-y-1 hover:border-zinc-300 hover:shadow-sm";
 
 const iconClass =
     "flex size-11 shrink-0 items-center justify-center rounded-xl bg-zinc-100 text-zinc-700";

@@ -8,7 +8,7 @@ import ProjectPage from './pages/ProjectPage.jsx'
 
 export default function App() {
   return (
-    <div className="flex min-h-screen bg-white text-gray-900">
+    <div className="flex min-h-screen text-gray-900">
       <Sidebar />
 
       <main className="min-w-0 flex-1 p-6 md:p-10">
