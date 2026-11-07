@@ -10,7 +10,7 @@ const links = [
 ]
 
 export default function Sidebar() {
-    const [isExpanded, setIsExpanded] = useState(true)
+    const [isExpanded, setIsExpanded] = useState(false)
 
     return (
         <aside
