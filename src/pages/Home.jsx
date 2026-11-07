@@ -1,3 +1,4 @@
+import { Link } from 'react-router';
 import OrbitingImages from '../components/animation/OrbitingImages'
 
 export default function Home() {
@@ -9,11 +10,12 @@ export default function Home() {
         { src: "/images/floating/fishingreel.webp", alt: "Fishing reel" },
         { src: "/images/floating/runningshoes.webp", alt: "Running shoes" },
     ];
+
     return (
         <>
             <h1 className="text-5xl font-bold tracking-[-0.06em] sm:text-7xl">Hello!</h1>
-            <p className="mt-4">My name is Jakob,  welcome to my personal website.</p>
-            <p className="mt-4">This is where I show off my projects</p>
+            <p className="mt-4">My name is <Link to="/contact" className="link-style">Jakob</Link>, welcome to my personal website.</p>
+            <p className="mt-4">This is where I show off my <Link to="/projects" className="link-style">projects</Link>.</p>
 
             <section className="flex min-h-[250px] items-center justify-center">
                 <OrbitingImages

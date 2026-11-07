@@ -6,9 +6,9 @@ The site showcases personal projects, experiments, and contact information, with
 
 ## Projects
 
-- **Pigeon Deterrence: Water Gun** — An automated water gun that uses bird classification to identify pigeons and fire a water jet at them. *In progress.*
-- **Road Guess** — An Android game for practicing knowledge of road names in your local city. *In progress.*
-- **Library Management System** — A library system for lending books, managing reservations, and tracking delinquent fees. *On hold.*
+- **Pigeon Deterrence: Water Gun** - An automated water gun that uses bird classification to identify pigeons and fire a water jet at them. *In progress.*
+- **Road Guess** - An Android game for practicing knowledge of road names in your local city. *In progress.*
+- **Library Management System** - A library system for lending books, managing reservations, and tracking delinquent fees. *On hold.*
 
 ## Tech Stack
 

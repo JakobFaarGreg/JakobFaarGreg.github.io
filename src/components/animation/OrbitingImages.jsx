@@ -16,7 +16,7 @@ export default function OrbitingImages({
 
   return (
     <div
-      className="relative flex items-center justify-center"
+      className="relative flex items-center justify-center pointer-events-none"
       style={{
         width: size,
         height: size,

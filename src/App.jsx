@@ -1,4 +1,3 @@
-
 import { Routes, Route } from 'react-router'
 import Home from './pages/Home.jsx'
 import Projects from './pages/Projects.jsx'

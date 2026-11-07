@@ -1,4 +1,4 @@
-# Road Guess — Android Game
+# Road Guess - Android Game
 
 Road Guess is an Android game that challenges players to test their knowledge of their own city. Players are presented with an overhead map of the city, where a particular road is highlighted, and must guess its name before the timer runs out. The game turns everyday geography into a fast-paced challenge, rewarding familiarity with local streets, spatial awareness, and quick thinking. Its simple premise makes it easy to pick up while leaving room for competition and replayability as players try to improve their scores.
 
