@@ -10,13 +10,13 @@
   {
     "title": "Road Guess",
     "description": "An Android game that practices your knowledge of road names in your local city.",
-    "image": "/images/projects/ic_launcher.webp",
+    "image": "/images/projects/roadguess.webp",
     "href": "/project/road-guess",
     "status": "in-progress",
     "technologies": ["Kotlin", "Jetpack Compose UI", "Gradle", "Mapbox"]
   },
   {
-    "title": "Book-em: Library Management System",
+    "title": "Book-em",
     "description": "A library management system capable of lending out books, tracking delinquent fees, and managing reservations of books.",
     "image": "/images/projects/pexels-sumcig-38323235.webp",
     "href": "/project/book-em",

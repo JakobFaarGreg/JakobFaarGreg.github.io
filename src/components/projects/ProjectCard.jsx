@@ -34,14 +34,14 @@ export function ProjectCard({ project, index }) {
             {/* Background ribbon - behind image and information */}
             <div
                 aria-hidden="true"
-                className="pointer-events-none absolute inset-x-0 top-[20%] -z-10 h-32 w-full rounded-xl bg-neutral-900 dark:bg-neutral-100 md:top-[20%] md:h-auto md:aspect-[4/1]"
+                className="pointer-events-none absolute inset-x-0 top-[20%] -z-10 h-32 w-full rounded-xl bg-[#FEF9EC] md:top-[20%] md:h-auto md:aspect-[4/1]"
             />
 
             {/* Project image */}
             <RouterLink
                 to={project.href}
                 aria-label={`View ${project.title} project`}
-                className={`relative z-10 row-start-1 block overflow-hidden rounded-2xl bg-neutral-100 dark:bg-neutral-900 ${reversed
+                className={`relative z-10 row-start-1 block overflow-hidden rounded-2xl bg-[#FEF9EC] ${reversed
                     ? "md:col-start-2"
                     : "md:col-start-1"
                     }`}
@@ -66,11 +66,11 @@ export function ProjectCard({ project, index }) {
                     }`}
             >
                 <div className="space-y-3">
-                    <h2 className="text-2xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-3xl lg:text-4xl">
+                    <h2 className="text-2xl font-semibold tracking-tight text-neutral-900 sm:text-3xl lg:text-4xl">
                         {project.title}
                     </h2>
 
-                    <p className="max-w-xl text-base leading-7 text-neutral-600 dark:text-neutral-400">
+                    <p className="max-w-xl text-base leading-7 text-neutral-600">
                         {project.description}
                     </p>
                 </div>
@@ -81,7 +81,7 @@ export function ProjectCard({ project, index }) {
                         {project.technologies.map((technology) => (
                             <li
                                 key={technology}
-                                className="rounded-md border border-neutral-200 px-2.5 py-1 text-xs text-neutral-600 dark:border-neutral-800 dark:text-neutral-400"
+                                className="rounded-md border border-neutral-200 px-2.5 py-1 text-xs text-neutral-600"
                             >
                                 {technology}
                             </li>
@@ -97,7 +97,7 @@ export function ProjectCard({ project, index }) {
                     {/* Project link */}
                     <RouterLink
                         to={project.href}
-                        className="inline-flex items-center gap-2 text-sm font-medium text-neutral-900 transition-colors hover:text-neutral-500 dark:text-neutral-100 dark:hover:text-neutral-400"
+                        className="inline-flex items-center gap-2 text-sm font-medium text-neutral-400 transition-colors hover:text-neutral-600"
                     >
                         Explore project
 
