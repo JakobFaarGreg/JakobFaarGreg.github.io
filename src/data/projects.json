@@ -1,4 +1,3 @@
-
 [
   {
     "title": "Pigeon Deterrence: Water Gun",
@@ -17,7 +16,7 @@
     "technologies": ["Kotlin", "Jetpack Compose UI", "Gradle", "Mapbox"]
   },
   {
-    "title": "Library Management System",
+    "title": "Book-em: Library Management System",
     "description": "A library management system capable of lending out books, tracking delinquent fees, and managing reservations of books.",
     "image": "/images/projects/pexels-sumcig-38323235.webp",
     "href": "/project/book-em",

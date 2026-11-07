@@ -55,7 +55,7 @@ export function ProjectCard({ project, index }) {
 
             {/* Project information */}
             <div
-                className={`flex flex-col items-start gap-5
+                className={`flex flex-col items-center gap-5
           ${reversed ? "md:order-1" : "md:order-2"}`}
             >
                 <div className="space-y-3">
